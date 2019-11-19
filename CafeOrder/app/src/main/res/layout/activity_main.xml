@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_name" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:hint="@string/hint_password"/>
+
+    <Button
+        android:id="@+id/buttonCreateOrder"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:onClick="onClickCreateOrder"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_margin="8dp"
+        android:textColor="@color/dark_brown"
+        android:layout_height="wrap_content"
+        android:text="@string/button_create_order" />
+</LinearLayout>

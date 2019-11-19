@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Color Descriptor</string>
+    <string name="button_find_description">Определить цвет</string>
+
+    <string-array name="colors">
+        <item>Красный</item>
+        <item>Оранжевый</item>
+        <item>Жёлтый</item>
+        <item>Зелёный</item>
+        <item>Голубой</item>
+        <item>Синий</item>
+        <item>Фиолетовый</item>
+    </string-array>
+    
+    <string-array name="description_of_temp">
+        <item>Красный да</item>
+        <item>Оранжевый да</item>
+        <item>Жёлтый да</item>
+        <item>Зелёный да</item>
+        <item>Голубой да</item>
+        <item>Синий да</item>
+        <item>Фиолетовый да</item>
+    </string-array>
+</resources>
